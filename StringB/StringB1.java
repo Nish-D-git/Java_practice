@@ -13,7 +13,11 @@ public class StringB1 {
         System.out.println(sb.length());
 
         //insert
-        System.out.println(sb.insert(0, "D "));
+        System.out.println(sb.insert(0, "desh "));
+
+        //setCharAt
+        sb.setCharAt(0,'D');
+        System.out.println(sb);
     }
     
 }
