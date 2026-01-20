@@ -7,7 +7,13 @@ public class StringB1 {
         System.out.println(sb);
 
         //print a char
-        System.out.println(sb.charAt(0));        
+        System.out.println(sb.charAt(0));       
+        
+        //length
+        System.out.println(sb.length());
+
+        //insert
+        System.out.println(sb.insert(0, "D "));
     }
     
 }
