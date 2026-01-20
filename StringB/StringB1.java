@@ -18,6 +18,17 @@ public class StringB1 {
         //setCharAt
         sb.setCharAt(0,'D');
         System.out.println(sb);
+
+        //delete
+        sb.delete(1,4);
+        sb.delete(6,9);
+        System.out.println(sb);
+
+        //append
+        sb.append("a");
+        sb.append("n");
+        sb.append("t");
+        System.out.println(sb);
     }
     
 }
