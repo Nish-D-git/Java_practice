@@ -11,6 +11,12 @@ public class StringBuildReverse {
         StringBuilder sb = new StringBuilder(name);
 
         System.out.println(name);
+        System.out.println(name.length());
+
+        //charAt
+        System.out.print("Enter a index, less than "+name.length()+" index number: ");
+        int specElem = sc.nextInt();
+        System.out.println(name.charAt(specElem));        
         
     }
     
