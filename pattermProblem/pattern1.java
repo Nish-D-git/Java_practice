@@ -3,12 +3,11 @@ public class pattern1 {
         
         for(int i=0; i<=5; i++){
             for(int j=0; j<=5; j++){
-
-                if(i==0 || j==0 || i==5 || j==5){
-                    System.out.print(i+j);
+                if (i==1||i==3||i==5) {
+                    System.out.print(i);
                 }else{
-                    System.out.print(" ");
-                }
+                    System.out.print("*");
+                }                
             }
             
             System.out.println("");
